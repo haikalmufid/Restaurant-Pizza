@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UTS PAM</string>
+    <string-array name="lokasi">
+        <item>Cibiru</item>
+        <item>Cileunyi</item>
+        <item>Gede Bage</item>
+    </string-array>
+</resources>

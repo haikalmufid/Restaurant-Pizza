@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="checkbox_ambil_sendiri" type="id" />
+    <item name="checkbox_fast_delivery" type="id" />
+    <item name="done_id_button" type="id" />
+    <item name="location_textView" type="id" />
+    <item name="order_textView" type="id" />
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SteakDetail">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="248.5dp"
+            android:src="@drawable/steak4" />
+        <TextView
+            android:id="@+id/steak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Steak"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginTop="205dp"
+            android:layout_marginLeft="30dp"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price: Rp 140.000,00"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/brown"
+            android:textAlignment="viewEnd"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:text="Steak Prime Grilled adalah potongan daging prime pilihan yang dipanggang sempurna, menawarkan cita rasa daging yang lezat. Disajikan dengan saus steak, sayuran panggang, dan opsional keju blue cheese, ini adalah pengalaman makan steak yang luar biasa."
+            android:textColor="@color/brown"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/order_id_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Order Now"
+            android:backgroundTint="@color/tomat"
+            app:cornerRadius="0dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/kuning"/>
+
+        <Button
+            android:id="@+id/back_id_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Back"
+            android:backgroundTint="@color/tomat"
+            app:cornerRadius="0dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/kuning"/>
+
+    </LinearLayout>
+</LinearLayout>
